@@ -5,6 +5,9 @@
     flex-direction: row;
     gap: 24px;
 }
+.team-title {
+    margin-bottom: 72px;
+}
 
 .team-section {
     background-color: #f4f4fd;
