@@ -1,17 +1,12 @@
-.benefit{
-    padding-top: 120px;
-    padding-bottom: 120px;
+.benefit {
     display: flex;
     gap: 24px;
-    
-
 }
 
-.benefit li{
+.benefit li {
     width: 264px;
-    
 }
 
-.benefit h2{
+.benefit h3 {
     margin-bottom: 8px;
 }
