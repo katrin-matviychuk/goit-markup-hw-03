@@ -1,3 +1,10 @@
+.header .container {
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -6,34 +13,65 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #2e2f42;
-    
+    color: #2e2f42;  
+    display: inline-flex;
+    align-items: center;
+    margin-right: 76px; 
 }
-.logo .accent{
+
+.logo .accent {
     color: #4d5ae5;
+}
+
+/* Меню навігації */
+.menu-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: auto; 
+    padding: 24px;
 }
 
 .menu-link a {
     font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+
 .menu-link a:hover,
 .menu-link a:focus, 
 .menu-link a:active {
     color: #404bbf;
 }
+
+/* Блок контактів */
+.contact {
+    font-style: normal; 
+    margin-left: auto; 
+    width: 344px; 
+}
+
+.contact ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px; 
+}
+
 .contact a {
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .contact a:hover, 
 .contact a:focus, 
 .contact a:active {
