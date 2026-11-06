@@ -14,7 +14,7 @@
     text-align: center;
     color: #fff;
     max-width: 496px;
-    margin: 0 auto 48px;
+    margin: 0 auto 48px auto; 
 }
 
 .button {
@@ -30,7 +30,7 @@
     cursor: pointer;
     
     display: block;
-    margin: 48px auto 0 auto;
+    margin: 0 auto; 
     padding: 16px 32px;
 }
 
